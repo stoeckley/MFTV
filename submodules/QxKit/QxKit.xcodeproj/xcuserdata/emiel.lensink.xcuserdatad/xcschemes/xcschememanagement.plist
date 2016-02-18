@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>qxkit atv.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>qxkit ios.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>qxkit osx.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>17C936451B8E651E008403E8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>17C9364F1B8E651E008403E8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>17C936621B8E652E008403E8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>17C9366B1B8E652F008403E8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8242F8F61BE90A2E00C8D476</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

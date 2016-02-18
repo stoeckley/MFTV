@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4CB17624060E1B5146DFD0F23474AB32B8061956",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4CB17624060E1B5146DFD0F23474AB32B8061956" : 0,
+    "483FD2F76B58EC41C0EC541A53D8BD12683CDF0B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F89C1AEC-3B4A-4E5B-BE9B-9F7609CF46E0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4CB17624060E1B5146DFD0F23474AB32B8061956" : "mfapp\/",
+    "483FD2F76B58EC41C0EC541A53D8BD12683CDF0B" : "mfapp\/submodules\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "mftv",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "mftv\/mftv.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/home.emle.nl\/git\/qxkit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "483FD2F76B58EC41C0EC541A53D8BD12683CDF0B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/home.emle.nl\/git\/mfapp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4CB17624060E1B5146DFD0F23474AB32B8061956"
+    }
+  ]
+}

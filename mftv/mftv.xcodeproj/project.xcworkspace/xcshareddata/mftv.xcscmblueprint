@@ -1,14 +1,16 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4CB17624060E1B5146DFD0F23474AB32B8061956",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "03BBB2B6C30F300C99608C598C4418128D097A90",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "03BBB2B6C30F300C99608C598C4418128D097A90" : 0,
     "4CB17624060E1B5146DFD0F23474AB32B8061956" : 0,
     "483FD2F76B58EC41C0EC541A53D8BD12683CDF0B" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F89C1AEC-3B4A-4E5B-BE9B-9F7609CF46E0",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "03BBB2B6C30F300C99608C598C4418128D097A90" : "MFTV\/",
     "4CB17624060E1B5146DFD0F23474AB32B8061956" : "mfapp\/",
     "483FD2F76B58EC41C0EC541A53D8BD12683CDF0B" : "mfapp\/submodules\/"
   },
@@ -16,6 +18,11 @@
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "mftv\/mftv.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/emiellensink\/MFTV.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "03BBB2B6C30F300C99608C598C4418128D097A90"
+    },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/home.emle.nl\/git\/qxkit.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",

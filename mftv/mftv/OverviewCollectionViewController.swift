@@ -89,7 +89,7 @@ class OverviewCollectionViewController: UICollectionViewController {
 	func setNewTimer() {
 		randomPhotoTimer?.invalidate()
 		
-		randomPhotoTimer = NSTimer.scheduledTimerWithTimeInterval(10, target: self, selector: "timerFired:", userInfo: nil, repeats: false)
+		randomPhotoTimer = NSTimer.scheduledTimerWithTimeInterval(10, target: self, selector: #selector(OverviewCollectionViewController.timerFired(_:)), userInfo: nil, repeats: false)
 	}
 	
 	@objc func timerFired(timer:NSTimer) {

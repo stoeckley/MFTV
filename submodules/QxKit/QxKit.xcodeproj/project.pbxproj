@@ -64,12 +64,6 @@
 		8222E6A91C60CAF4008C59F9 /* ArrayMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8222E6A81C60CAF4008C59F9 /* ArrayMappable.swift */; };
 		8222E6AA1C60CAF4008C59F9 /* ArrayMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8222E6A81C60CAF4008C59F9 /* ArrayMappable.swift */; };
 		8222E6AB1C60CAF4008C59F9 /* ArrayMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8222E6A81C60CAF4008C59F9 /* ArrayMappable.swift */; };
-		822620261C5FC0340000A5D4 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822620251C5FC0340000A5D4 /* DataProvider.swift */; };
-		822620271C5FC0340000A5D4 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822620251C5FC0340000A5D4 /* DataProvider.swift */; };
-		822620281C5FC0340000A5D4 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822620251C5FC0340000A5D4 /* DataProvider.swift */; };
-		8226202A1C5FC06A0000A5D4 /* DefaultDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822620291C5FC06A0000A5D4 /* DefaultDataProvider.swift */; };
-		8226202B1C5FC06A0000A5D4 /* DefaultDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822620291C5FC06A0000A5D4 /* DefaultDataProvider.swift */; };
-		8226202C1C5FC06A0000A5D4 /* DefaultDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822620291C5FC06A0000A5D4 /* DefaultDataProvider.swift */; };
 		8239AB901C526DC200D96122 /* BaseDataLoaderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8239AB8F1C526DC200D96122 /* BaseDataLoaderService.swift */; };
 		8239AB911C526DC200D96122 /* BaseDataLoaderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8239AB8F1C526DC200D96122 /* BaseDataLoaderService.swift */; };
 		8239AB921C526DC200D96122 /* BaseDataLoaderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8239AB8F1C526DC200D96122 /* BaseDataLoaderService.swift */; };
@@ -140,8 +134,6 @@
 		820DD73B1C57AC7900CED9FF /* KeyedQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyedQueue.swift; sourceTree = "<group>"; };
 		822108461BE93AAC00A0845F /* HTTPService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPService.swift; sourceTree = "<group>"; };
 		8222E6A81C60CAF4008C59F9 /* ArrayMappable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayMappable.swift; sourceTree = "<group>"; };
-		822620251C5FC0340000A5D4 /* DataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
-		822620291C5FC06A0000A5D4 /* DefaultDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultDataProvider.swift; sourceTree = "<group>"; };
 		8239AB8F1C526DC200D96122 /* BaseDataLoaderService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseDataLoaderService.swift; sourceTree = "<group>"; };
 		8239AB991C52783100D96122 /* ObjectCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectCache.swift; sourceTree = "<group>"; };
 		8242F8F71BE90A2E00C8D476 /* QxKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QxKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -317,7 +309,6 @@
 		17C9367E1B8E6688008403E8 /* Agnostic */ = {
 			isa = PBXGroup;
 			children = (
-				822620241C5FC0140000A5D4 /* data handling */,
 				17A6606F1C5198190024A01C /* protocols */,
 				17CB0ACF1C481F1F00BABFC5 /* json */,
 				822108451BE93A8600A0845F /* networking */,
@@ -417,15 +408,6 @@
 				17CB0AB41C457CE000BABFC5 /* HTTPValidation.swift */,
 			);
 			path = networking;
-			sourceTree = "<group>";
-		};
-		822620241C5FC0140000A5D4 /* data handling */ = {
-			isa = PBXGroup;
-			children = (
-				822620251C5FC0340000A5D4 /* DataProvider.swift */,
-				822620291C5FC06A0000A5D4 /* DefaultDataProvider.swift */,
-			);
-			path = "data handling";
 			sourceTree = "<group>";
 		};
 		8242F8F81BE90A2E00C8D476 /* atv */ = {
@@ -681,7 +663,6 @@
 				17BCB8C61BCABBF700B7E032 /* Array+utilities.swift in Sources */,
 				173041601C4985AA00AED721 /* DataService.swift in Sources */,
 				820DD7381C57A9EF00CED9FF /* Synchronized.swift in Sources */,
-				822620261C5FC0340000A5D4 /* DataProvider.swift in Sources */,
 				17CB0AD11C481F3500BABFC5 /* JSON.swift in Sources */,
 				820DD73C1C57AC7900CED9FF /* KeyedQueue.swift in Sources */,
 				822108471BE93AAC00A0845F /* HTTPService.swift in Sources */,
@@ -695,7 +676,6 @@
 				17CB0AB11C4572AF00BABFC5 /* HTTPServiceConfigurable.swift in Sources */,
 				17A660711C5198320024A01C /* ObjectConfigurable.swift in Sources */,
 				824D562E1BD0511F00FB1C4D /* Version.swift in Sources */,
-				8226202A1C5FC06A0000A5D4 /* DefaultDataProvider.swift in Sources */,
 				17CB0ABB1C46F84800BABFC5 /* HTTPService+jsonResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -721,7 +701,6 @@
 				170EBE751BC591DA002F4AF6 /* Utilities.swift in Sources */,
 				173041611C4985AA00AED721 /* DataService.swift in Sources */,
 				820DD7391C57A9EF00CED9FF /* Synchronized.swift in Sources */,
-				822620271C5FC0340000A5D4 /* DataProvider.swift in Sources */,
 				17CB0AD21C481F3500BABFC5 /* JSON.swift in Sources */,
 				820DD73D1C57AC7900CED9FF /* KeyedQueue.swift in Sources */,
 				822108481BE93AAC00A0845F /* HTTPService.swift in Sources */,
@@ -735,7 +714,6 @@
 				17CB0AB21C4572AF00BABFC5 /* HTTPServiceConfigurable.swift in Sources */,
 				17A660721C5198320024A01C /* ObjectConfigurable.swift in Sources */,
 				17C936871B8E6778008403E8 /* rgbHelper.swift in Sources */,
-				8226202B1C5FC06A0000A5D4 /* DefaultDataProvider.swift in Sources */,
 				17CB0ABC1C46F84800BABFC5 /* HTTPService+jsonResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -761,7 +739,6 @@
 				8242F9031BE90BDF00C8D476 /* Array+utilities.swift in Sources */,
 				173041621C4985AA00AED721 /* DataService.swift in Sources */,
 				820DD73A1C57A9EF00CED9FF /* Synchronized.swift in Sources */,
-				822620281C5FC0340000A5D4 /* DataProvider.swift in Sources */,
 				17CB0AD31C481F3500BABFC5 /* JSON.swift in Sources */,
 				820DD73E1C57AC7900CED9FF /* KeyedQueue.swift in Sources */,
 				822108491BE93AAC00A0845F /* HTTPService.swift in Sources */,
@@ -775,7 +752,6 @@
 				17CB0AB31C4572AF00BABFC5 /* HTTPServiceConfigurable.swift in Sources */,
 				17A660731C5198320024A01C /* ObjectConfigurable.swift in Sources */,
 				8242F9001BE90BD500C8D476 /* Utilities.swift in Sources */,
-				8226202C1C5FC06A0000A5D4 /* DefaultDataProvider.swift in Sources */,
 				17CB0ABD1C46F84800BABFC5 /* HTTPService+jsonResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
